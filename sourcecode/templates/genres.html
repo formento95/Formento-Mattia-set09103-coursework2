@@ -1,0 +1,38 @@
+<html>
+  <body
+  style="background-image:url('')">
+  {% include 'main.html' %}
+
+  {% block content %}
+  <h1 style="text-align:center;color:black;"> Browse Popular Genres </h1>
+  <br>
+  <br>
+  <a href="/horror">
+  <p
+  style="float:left;font-size:14pt;text-align:center;width:23%;margin-right:1%;margin-bottom:0.5em">
+  <img src="http://www.much.com/wp-content/uploads/2015/10/Scary-Movie-Quiz-Main.jpg"
+  alt="Horror Image 1" style="width:100%;height:300px;">Horror</p>
+  </a>
+  <a href="/scifi">
+  <p style="float: left; font-size: 14pt; text-align: center; width: 23%;
+  margin-right: 1%; margin-bottom: 0.5em;"><img
+  src="http://flavorwire.files.wordpress.com/2013/08/e-t-et-film-still-1232955.jpg"
+  style="width:100%;height:300px;">Sci-Fi</p>
+  </a>
+  <a href="/comedy">
+  <p
+  style="float:left;font-size:14pt;text-align:center;width:23%;margin-right:1%;margin-bottom:0.5em;">
+  <img
+  src="http://news.bitcoin.com/wp-content/uploads/2017/11/hhaudtyduua.jpg" 
+  style="width:100%;height:300px;">Comedy</p>
+  </a>
+  <a href="/action">
+  <p style="float: left; font-size: 14pt; text-align: center; width: 23%;
+  margin-right: 1%; margin-bottom: 0.5em;"><img
+  src="http://dl9fvu4r30qs1.cloudfront.net/99/57/0b5c38264e5086ca0f2e829f9298/bad-boys-ii-martin-lawrence-will-smith.jpg"
+  style="width:100%;height:300px;">Action</p>
+  </a>
+  <p style="clear:both;">
+  {% endblock %}
+  </body>
+</html>

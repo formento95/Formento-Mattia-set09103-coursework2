@@ -1,0 +1,29 @@
+<html>
+  <body
+  style="background-image:url('http://images5.alphacoders.com/837/thumb-1920-837093.jpg')">
+  {% include 'main.html' %}
+  
+  {% block content %}
+    <br>
+    <br>
+    <h1 style="text-align:left;color:black;"><strong>Welcome to MyMovie Database </strong></h1>
+    <div style="background-color: #FFF8C6; margin-left: 20px; margin-right:
+    1300px; padding-bottom: 8px; paddign-left: 8px; padding-right: 8px;
+    padding-top: 8px;">
+    <a href="/horror">
+    <p>Horror Movies</p>
+    </a>
+    <a href="/scifi">
+    <p>Sci-Fi Movies</p>
+    </a>
+    <a href="/comedy">
+    <p>Comedy Movies</p>
+    </a>
+    <a href="/action">
+    <p>Action Movies</p>
+    </a>
+    </div>
+
+  {% endblock %}
+  </body>
+</html>
